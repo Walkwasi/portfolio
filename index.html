@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #0056b3, #004080);
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #004080;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            margin: 5px 15px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        section {
+            max-width: 1100px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #0056b3;
+            font-size: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #004080;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .education-details {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav a {
+                font-size: 0.9rem;
+            }
+            section {
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am Prashanth, a second-year undergraduate student pursuing a B.Tech in Artificial Intelligence and Machine Learning at Panimalar Engineering College. My passion lies in leveraging cutting-edge technologies to build innovative solutions. I am currently working on an emotionally intelligent chatbot with multi-sensor capabilities aimed at enhancing human interaction.</p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Programming Languages: C, C++, Java, Python</li>
+        <li>Databases: MongoDB, SQL</li>
+        <li>Web Development: HTML, CSS, JavaScript, Basic Frameworks</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Web Scraping Tool:</strong> Designed and developed a robust web scraping tool to extract data efficiently, earning 5th place in the Intra-college Ideathon 2023-2024.</li>
+        <li><strong>Emotionally Intelligent Chatbot (Ongoing):</strong> Working on an advanced chatbot equipped with multi-sensor capabilities to understand and improve human interactions.</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <strong>B.Tech in Artificial Intelligence and Machine Learning</strong><br>
+            Panimalar Engineering College (Ongoing)
+        </li>
+        <li>
+            <strong>Central Board of Secondary Education (Class 10 and Class 12)</strong><br>
+            <span class="education-details">Maharishi International Residential School</span>
+        </li>
+    </ul>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>Secured 5th place in the Intra-college Ideathon 2023-2024 for a web scraping project.</li>
+        <li>Participated in Smart India Hackathon (SIH) 2024.</li>
+        <li>Shortlisted in the prestigious Info Edge Ventures AI Hackathon.</li>
+        <li>Certified in Full-stack Development Bootcamp by Udemy.</li>
+        <li>Earned a DSA Certification from NASSCOM.</li>
+        <li>Completed Python Basics Certification by Accenture.</li>
+        <li>Currently pursuing the "Acquiring Data" certification course from NASSCOM.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:prashanth.aiml07@gmail.com">prashanth.aiml07@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918754833698">+91-8754833698</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Prashanth. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
